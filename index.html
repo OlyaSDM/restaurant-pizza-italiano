@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Pizza</title>
+      <link rel="icon" href="data:,">
+      <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+      <section class="main">
+         <header class="header">
+            <div class="container">
+               <div class="logo">
+                  <img src="assets/icons/Logo.png" alt="logo" width="80" height="80">
+               </div>
+               <nav class="menu">
+                  <ul class="menu-list">
+                     <li class="menu-item">
+                        <a data-link="why">Why are we</a>
+                     </li>
+                     <li class="menu-item">
+                        <a data-link="products">Menu</a>
+                     </li>
+                     <li class="menu-item">
+                        <a data-link="order">Checkout</a>
+                     </li>
+                  </ul>
+               </nav>
+               <div class="currency" title="Change currency" id="change-currency">$</div>
+            </div>
+         </header>
+         <section class="main-content">
+            <div class="container">
+               <div class="main-info">
+                  <h1 class="main-title title">Pizza Italiano</h1>
+                  <p class="main-text">
+                     We have updated our menu, hurry up to try seasonal novelties and enjoy the excellent taste of our pizzas.
+                  </p>
+                  <div class="main-action">
+                     <button class="button" id="main-action-button">Menu</button>
+                  </div>
+               </div>
+               <img src="assets/images/pizza_main.png" alt="pizza" class="main-image">
+            </div>
+         </section>
+      </section>
+      <section class="why" id="why">
+         <div class="container">
+            <div class="why-title common-title">Why choose us?</div>
+            <div class="why-items">
+               <div class="why-item">
+                  <img src="assets/icons/pizza.png" alt="pizza" class="why-item-image">
+                  <div class="why-item-title">Author's recipes</div>
+                  <div class="why-item-text">
+                     Our pizzas have a certain combination of flavors and are unlike any other. We carefully select the best ingredients and combine flavors for our menu.
+                  </div>
+               </div>
+               <div class="why-item">
+                  <img src="assets/icons/cheese.png" alt="cheese" class="why-item-image">
+                  <div class="why-item-title">Best Cheese</div>
+                  <div class="why-item-text">
+                     For our pizzas, we use 100% farm cheese, which we buy exclusively from farmers. We are confident in the quality of our cheese.
+                  </div>
+               </div>
+               <div class="why-item">
+                  <img src="assets/icons/food moto.png" alt="food moto" class="why-item-image">
+                  <div class="why-item-title">Fast delivery</div>
+                  <div class="why-item-text">
+                     We deliver in 30 minutes, and if we do not have time, then delivery is free. We pack our pizzas carefully so they don't get cold on the way.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="products" id="products">
+         <div class="container">
+            <div class="products-title common-title">Choose your pizza</div>
+            <div class="products-items">
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/1.png" alt="pizza1">
+                  </div>
+                  <div class="products-item-title">Sicilian</div>
+                  <div class="products-item-text">
+                     Mozzarella cheese, mushrooms, pepperoni, bell peppers, olives
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="12">12$</div>
+                        <div class="products-item-weight">32 cm / 735 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/2.png" alt="pizza2">
+                  </div>
+                  <div class="products-item-title">Margherita</div>
+                  <div class="products-item-text">
+                     Olives, mozzarella cheese, broccoli, red onion, bell pepper, chicken
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="17">17$</div>
+                        <div class="products-item-weight">32 cm / 720 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/3.png" alt="pizza3">
+                  </div>
+                  <div class="products-item-title">Buffalo</div>
+                  <div class="products-item-text">
+                     Mushrooms, pepperoni, ham, beef, tomato, tomato sauce
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="22">22$</div>
+                        <div class="products-item-weight">32 cm / 720 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/4.png" alt="pizza4">
+                  </div>
+                  <div class="products-item-title">Bavarian</div>
+                  <div class="products-item-text">
+                     BBQ sauce, tomato, hot pepper, hunting sausage, cheese
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="17">17$</div>
+                        <div class="products-item-weight">32 cm / 720 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/5.png" alt="pizza5">
+                  </div>
+                  <div class="products-item-title">Calzone</div>
+                  <div class="products-item-text">
+                     Sausages, pizza sauce, olives, two kinds of cheese
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="18">18$</div>
+                        <div class="products-item-weight">32cm / 620 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/6.png" alt="pizza6">
+                  </div>
+                  <div class="products-item-title">California-style</div>
+                  <div class="products-item-text">
+                     Parmesan cheese, red onion, chicken, pickled cucumber
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="19">19$</div>
+                        <div class="products-item-weight">32 cm / 620 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/7.png" alt="pizza7">
+                  </div>
+                  <div class="products-item-title">Italian</div>
+                  <div class="products-item-text">
+                     Mozzarella cheese, mushrooms, olives, bell peppers, cherry tomatoes
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="20">20$</div>
+                        <div class="products-item-weight">32cm / 680 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/8.png" alt="pizza8">
+                  </div>
+                  <div class="products-item-title">Meat Lover's</div>
+                  <div class="products-item-text">
+                     Pepperoni, Ham & Bacon, tomato, red onion, cheese
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="17">17$</div>
+                        <div class="products-item-weight">32 cm / 680 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+               <div class="products-item">
+                  <div class="products-item-image">
+                     <img src="assets/images/9.png" alt="pizza9">
+                  </div>
+                  <div class="products-item-title">Fragrant</div>
+                  <div class="products-item-text">
+                     Tomato sauce, mozzarella cheese, basil, olive oil
+                  </div>
+                  <div class="products-item-extra">
+                     <div class="products-item-info">
+                        <div class="products-item-price" data-base-price="18">18$</div>
+                        <div class="products-item-weight">32 cm / 570 gram</div>
+                     </div>
+                     <div class="products-item-action">
+                        <button class="button product-button">
+                           <span>Order</span>
+                           <span>
+                              <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M17 18.5C17.5304 18.5 18.0391 18.7107 18.4142 19.0858C18.7893 19.4609 19 19.9696 19 20.5C19 21.0304 18.7893 21.5391 18.4142 21.9142C18.0391 22.2893 17.5304 22.5 17 22.5C16.4696 22.5 15.9609 22.2893 15.5858 21.9142C15.2107 21.5391 15 21.0304 15 20.5C15 19.39 15.89 18.5 17 18.5ZM1 2.5H4.27L5.21 4.5H20C20.2652 4.5 20.5196 4.60536 20.7071 4.79289C20.8946 4.98043 21 5.23478 21 5.5C21 5.67 20.95 5.84 20.88 6L17.3 12.47C16.96 13.08 16.3 13.5 15.55 13.5H8.1L7.2 15.13L7.17 15.25C7.17 15.3163 7.19634 15.3799 7.24322 15.4268C7.29011 15.4737 7.3537 15.5 7.42 15.5H19V17.5H7C6.46957 17.5 5.96086 17.2893 5.58579 16.9142C5.21071 16.5391 5 16.0304 5 15.5C5 15.15 5.09 14.82 5.24 14.54L6.6 12.09L3 4.5H1V2.5ZM7 18.5C7.53043 18.5 8.03914 18.7107 8.41421 19.0858C8.78929 19.4609 9 19.9696 9 20.5C9 21.0304 8.78929 21.5391 8.41421 21.9142C8.03914 22.2893 7.53043 22.5 7 22.5C6.46957 22.5 5.96086 22.2893 5.58579 21.9142C5.21071 21.5391 5 21.0304 5 20.5C5 19.39 5.89 18.5 7 18.5ZM16 11.5L18.78 6.5H6.14L8.5 11.5H16Z"
+                                    fill="#191411"/>
+                              </svg>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13795.600535867397!2d-82.68318275399764!3d30.182846597662707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ef3b5f458e5f49%3A0xe2932a49b790ecc9!2sLake%20City!5e0!3m2!1sru!2sby!4v1690396254926!5m2!1sru!2sby" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <div class="logo">
+               <img src="assets/icons/Logo.png" alt="logo" width="80" height="80">
+            </div>
+            <div class="rights">All rights reserved</div>
+         </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
